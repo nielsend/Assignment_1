@@ -19,19 +19,17 @@ The following commands were used in processing the files:
 - sort -k1,1 transposed_genotypes.txt > sorted_transposed_gegnotypes. txt
 - join -1 1 -2 1 sorted_transposed_genotypes. txt sorted_snp > sorted
 -cut -f 1 sorted | less
-
 <br>
-### *Sunday, 05. February 2017 02:59PM*
+###*Sunday, 05. February 2017 02:59PM*
 I am unsure that this output is correct, and I am still attempting to figure out what to do.
 -sort -c is erroring out, and this reveals that sorted_transposed_genotypes and sorted_snp are not really sorted.
 It appears like there are two less items when cut -f 1 [file name] is piped into word count.
-
 <br>
-### *Sunday, 05. February 2017 03:14PM*
+###*Sunday, 05. February 2017 03:14PM*
 Attempted gjoin, like always, it does not work.
 I will attempt more work on this at a later time.
 <br>
-### *Monday, 06. February 2017 08:45AM* 
+###*Monday, 06. February 2017 08:45AM* 
 After giving the project some thought, I have decided to change directions in how I layout my work.
 
 Since it appears that the sample IDs needed to be grabbed with the group files, grep should be used first.
