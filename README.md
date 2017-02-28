@@ -1,3 +1,11 @@
+# Assignment_2
+## This assignment is the "R" Assignment for BCB 546X
+<br>
+The scripts directory contains relevevant scripts and my thinking behind the project.
+The files directory contains the forward and reverse files for maize and teosinte.
+<br>
+<br>
+
 # Assignment_1
 ##Unix Assignment for BCB 546X
 
